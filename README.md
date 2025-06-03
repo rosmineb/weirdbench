@@ -49,50 +49,10 @@ Create a directory with a `config.json` file containing:
 ```json
 {
   "system_prompt": "Your custom system prompt for the LLM being tested",
-  "model_name": "gpt-3.5-turbo"
+  "model_name": "gpt-4o"
 }
 ```
 
-### Supported Models
-
-The script supports models from multiple providers:
-
-**OpenAI Models:**
-- `gpt-3.5-turbo`
-- `gpt-4`
-- `gpt-4-turbo`
-- `gpt-4o`
-- `gpt-4o-mini`
-
-**Anthropic Models:**
-- `claude-3-5-haiku-20241022`
-- `claude-3-5-sonnet-20241022`
-- `claude-3-opus-20240229`
-
-**Google Models:**
-- `gemini-1.5-flash`
-- `gemini-1.5-pro`
-
-**xAI Models:**
-- `grok-3-mini`
-
-## Pre-built Configurations
-
-The `configs/` directory contains ready-to-use configurations for evaluating different models. Directory names match the exact model names:
-
-**Original Judge Models:**
-- `configs/gpt-4o-mini/` - Evaluate GPT-4o-mini responses
-- `configs/claude-3-5-haiku-20241022/` - Evaluate Claude 3.5 Haiku responses  
-- `configs/gemini-1.5-flash/` - Evaluate Gemini Flash responses
-- `configs/grok-3-mini/` - Evaluate Grok 3 Mini responses
-
-**Additional Model Configurations:**
-- `configs/gpt-4o/` - Evaluate GPT-4o responses (standard prompt)
-- `configs/gpt-4o-adaptive/` - Evaluate GPT-4o responses (adaptive conversation style)
-- `configs/claude-3-5-sonnet-20241022/` - Evaluate Claude 3.5 Sonnet responses
-- `configs/claude-3-opus-20240229/` - Evaluate Claude 3 Opus responses
-- `configs/gemini-1.5-pro/` - Evaluate Gemini 1.5 Pro responses
-- `configs/o3/` - Evaluate o3 responses (future model)
 
 ## Usage
 
@@ -100,46 +60,8 @@ The `configs/` directory contains ready-to-use configurations for evaluating dif
 
 Basic usage:
 ```bash
-python weird_bench.py path/to/config/directory
+python weird_bench.py -c path/to/config/directory -d data.json
 ```
-
-Evaluate a specific judge model:
-```bash
-python weird_bench.py configs/gpt4o-mini
-```
-
-### Batch Evaluation (All Judge Models)
-
-Run evaluations on all judge models and generate a comparison report:
-
-```bash
-python run_all_evaluations.py
-```
-
-Run specific models only:
-```bash
-python run_all_evaluations.py --models gpt4o-mini claude-haiku
-```
-
-This will:
-1. Run WeirdBench on each specified model
-2. Generate individual score reports for each model
-3. Create a `comparison_report.txt` with side-by-side results
-4. Show which judge model gives the most/least weird responses
-
-### Command Line Options
-
-**weird_bench.py:**
-- `config_dir`: Directory containing the `config.json` file (required)
-- `--data-file`: Path to questions JSON file (default: `data.json`)
-- `--openai-api-key`: OpenAI API key (can also use `OPENAI_API_KEY` env var)
-- `--anthropic-api-key`: Anthropic API key (can also use `ANTHROPIC_API_KEY` env var)
-- `--google-api-key`: Google API key (can also use `GOOGLE_API_KEY` env var)
-- `--xai-api-key`: xAI API key (can also use `XAI_API_KEY` env var)
-
-**run_all_evaluations.py:**
-- `--configs-dir`: Directory containing config subdirectories (default: `configs`)
-- `--models`: Specific models to evaluate (default: all available models)
 
 ## Output
 
