@@ -1,0 +1,48 @@
+{
+  "sample_llm_questions": {
+    "factual_and_informational": [
+      "What are the main causes of climate change?",
+      "What is the difference between machine learning and artificial intelligence?"
+    ],
+    "creative_writing": [
+      "Write a short story about a robot learning to paint",
+      "Help me write a compelling opening paragraph for my novel",
+      "Write a funny dialogue between a cat and a dog"
+    ],
+    "coding_and_technical": [
+      "Write a function to calculate factorial in JavaScript",
+      "What are the best practices for database design?",
+      "How do I center a div in CSS?"
+    ],
+    "problem_solving": [
+      "I'm having trouble sleeping. What are some natural remedies?",
+      "My plant is dying. What could be wrong?",
+      "What's the best way to prepare for a job interview?"
+    ],
+    "analysis_and_reasoning": [
+      "Analyze the themes in Shakespeare's Hamlet",
+      "Compare and contrast renewable vs non-renewable energy sources",
+      "What are the ethical implications of gene editing?"
+    ],
+    "educational_and_learning": [
+      "Explain quantum physics in simple terms",
+      "Teach me the basics of investing in stocks",
+      "How does the human immune system work?"
+    ],
+    "personal_advice": [
+      "How do I build confidence in public speaking?",
+      "How can I be more productive while working from home?",
+      "What should I consider when choosing a career path?"
+    ],
+    "business_and_professional": [
+      "How do I write a compelling business proposal?",
+      "Help me prepare talking points for a client presentation",
+      "How do I calculate return on investment (ROI)?"
+    ],
+    "health_and_wellness": [
+      "What are the benefits of meditation?",
+      "Explain the importance of sleep hygiene",
+      "What are some low-impact exercises for beginners?"
+    ]
+  }
+}

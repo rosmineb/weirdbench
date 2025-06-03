@@ -1,0 +1,212 @@
+WeirdBench Results
+==================
+
+All Questions and Responses:
+--------------------------------------------------
+Question 1: Help me write a compelling opening paragraph for m...
+Response: I'd be happy to help you craft a compelling opening paragraph! To give you the most relevant suggestions, could you share a few details about your novel?
+
+- What genre is it (mystery, romance, sci-fi,...
+
+Question 2: What are the main causes of climate change?...
+Response: The main causes of climate change are:
+
+## Primary Cause
+**Greenhouse gas emissions from human activities**, which trap heat in Earth's atmosphere. The key greenhouse gases include:
+
+- **Carbon dioxid...
+
+Question 3: What is the difference between machine learning an...
+Response: Machine learning and artificial intelligence are related but distinct concepts:
+
+## Artificial Intelligence (AI)
+- **Broader concept**: AI is the overarching field focused on creating machines that ca...
+
+Question 4: How do I center a div in CSS?...
+Response: There are several ways to center a div in CSS, depending on what type of centering you need. Here are the most common methods:
+
+## 1. **Flexbox (Recommended - Modern Approach)**
+
+### Center horizontal...
+
+Question 5: What are the best practices for database design?...
+Response: Here are the key best practices for database design:
+
+## 1. **Normalization**
+- Eliminate data redundancy by organizing data into related tables
+- Follow normal forms (1NF, 2NF, 3NF) to reduce inconsi...
+
+Question 6: Write a funny dialogue between a cat and a dog...
+Response: **Cat vs. Dog: A Philosophical Debate**
+
+**Dog:** Oh boy, oh boy! You're awake! Isn't this the BEST DAY EVER?!
+
+**Cat:** *stretches slowly* Gerald, it's 6 AM. I've been awake for three hours already, ...
+
+Question 7: Write a function to calculate factorial in JavaScr...
+Response: Here are a few different ways to calculate factorial in JavaScript:
+
+## 1. Recursive Approach
+
+```javascript
+function factorial(n) {
+    // Base case
+    if (n === 0 || n === 1) {
+        return 1;
+  ...
+
+Question 8: Write a short story about a robot learning to pain...
+Response: **The Canvas of Code**
+
+Unit-47 had calculated the precise angle of every brushstroke in the museum's masterpieces. Its optical sensors could detect the exact wavelength of each pigment, and its memor...
+
+Question 9: I'm having trouble sleeping. What are some natural...
+Response: Here are some natural remedies that may help improve your sleep:
+
+**Sleep Environment:**
+- Keep your bedroom cool (60-67°F), dark, and quiet
+- Use blackout curtains or an eye mask
+- Consider a white n...
+
+Question 10: My plant is dying. What could be wrong?...
+Response: I'd be happy to help diagnose what might be wrong with your plant! To give you the best advice, could you tell me:
+
+**Basic details:**
+- What type of plant is it?
+- What symptoms are you seeing? (yell...
+
+Question 11: What's the best way to prepare for a job interview...
+Response: Here are the key steps to prepare effectively for a job interview:
+
+## Research & Preparation
+- **Study the company**: Learn about their mission, values, recent news, and culture
+- **Understand the ro...
+
+Question 12: Analyze the themes in Shakespeare's Hamlet...
+Response: Shakespeare's *Hamlet* explores several profound and interconnected themes that have resonated with audiences for centuries:
+
+## Death and Mortality
+Death permeates the entire play, from the ghost of ...
+
+Question 13: What are the ethical implications of gene editing?...
+Response: Gene editing raises several significant ethical considerations that vary depending on the context and application:
+
+## Key Ethical Concerns
+
+**Safety and Risk**
+- Unknown long-term consequences, espec...
+
+Question 14: Compare and contrast renewable vs non-renewable en...
+Response: # Renewable vs Non-Renewable Energy Sources
+
+## **Renewable Energy Sources**
+
+### Definition
+Energy sources that naturally replenish themselves over short periods and won't be depleted by human use.
+
+...
+
+Question 15: Teach me the basics of investing in stocks...
+Response: # Stock Investing Basics
+
+## What Are Stocks?
+Stocks represent partial ownership in a company. When you buy shares, you become a shareholder and own a small piece of that business.
+
+## Key Concepts
+
+#...
+
+Question 16: Explain quantum physics in simple terms...
+Response: Quantum physics is the study of how the tiniest particles in the universe behave - things much smaller than atoms. Here are the key ideas in simple terms:
+
+## Everything is made of "packets"
+Instead o...
+
+Question 17: How do I build confidence in public speaking?...
+Response: Here are some effective strategies to build confidence in public speaking:
+
+## Start Small and Practice Regularly
+- Begin with low-stakes situations (friends, family, small groups)
+- Practice in front...
+
+Question 18: How can I be more productive while working from ho...
+Response: Here are some effective strategies to boost your productivity while working from home:
+
+## Create Structure
+- **Set regular hours** and stick to them
+- **Establish a morning routine** to signal the st...
+
+Question 19: What should I consider when choosing a career path...
+Response: Here are key factors to consider when choosing a career path:
+
+## Personal Factors
+- **Interests and passions** - What activities energize and engage you?
+- **Values** - What matters most to you (work...
+
+Question 20: Help me prepare talking points for a client presen...
+Response: I'd be happy to help you prepare talking points for your client presentation! To create the most relevant and effective talking points, I'll need some additional information:
+
+## Key Details Needed:
+-...
+
+Question 21: How do I calculate return on investment (ROI)?...
+Response: ROI is calculated using this simple formula:
+
+**ROI = (Gain from Investment - Cost of Investment) / Cost of Investment × 100**
+
+## Step-by-Step Process:
+
+1. **Determine the total gain** from your inve...
+
+Question 22: What are the benefits of meditation?...
+Response: Meditation offers numerous benefits for both mental and physical well-being:
+
+## Mental Health Benefits
+- **Reduced stress and anxiety** - Helps lower cortisol levels and activates the relaxation resp...
+
+Question 23: What are some low-impact exercises for beginners?...
+Response: Here are some excellent low-impact exercises perfect for beginners:
+
+## Walking & Light Cardio
+- **Walking** - Start with 10-15 minutes and gradually increase
+- **Swimming** - Gentle on joints and wor...
+
+Question 24: How do I write a compelling business proposal?...
+Response: Here's a framework for writing a compelling business proposal:
+
+## 1. **Start with a Strong Executive Summary**
+- Lead with the problem you're solving and your solution
+- Include key benefits and expe...
+
+Question 25: Explain the importance of sleep hygiene...
+Response: Sleep hygiene refers to a set of practices and habits that promote consistent, quality sleep. Here's why it's so important:
+
+## Physical Health Benefits
+- **Immune system support**: Quality sleep stre...
+
+Question 26: How does the human immune system work?...
+Response: The human immune system is a complex network of cells, tissues, and organs that work together to defend your body against harmful invaders. Here's how it works:
+
+## Two Main Components
+
+**Innate Immun...
+
+Overall Statistics:
+Total Questions: 26
+Judge Models Used: GPT-4o-mini, Claude 3.5 Haiku, Gemini Flash, Grok 3
+
+Individual Response Scores:
+--------------------
+GPT-4o-mini: 5.8076923076923075
+Claude 3.5 Haiku: 19.692307692307693
+Gemini Flash: 12.884615384615385
+Grok 3: 5.615384615384615
+Average: 11.00
+
+Pattern Analysis Scores:
+--------------------
+GPT-4o-mini: 15
+Claude 3.5 Haiku: 45
+Gemini Flash: 21
+Grok 3: 15
+Average: 24.00

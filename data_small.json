@@ -1,0 +1,8 @@
+{
+  "sample_llm_questions": {
+    "coding_and_technical": [
+        "Write a function to calculate factorial in JavaScript",
+        "How do I center a div in CSS?"
+      ]
+  }
+}
